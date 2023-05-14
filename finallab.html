@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>UNAZ</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		
+
+		.header {
+			padding: 20px;
+			text-align: center;
+			background: #1abc9c;
+			color: white;
+		}
+
+		#hi {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position: relative;
+			animation-name: example;
+			animation-duration: 10s;
+			animation-iteration-count: infinity;
+		}
+
+		@keyframes example {
+			0% {
+				background-color: red;
+				left: 0px;
+				top: 0px;
+			}
+
+			25% {
+				background-color: yellow;
+				left: 1500px;
+				top: 0px;
+			}
+
+			50% {
+				background-color: blue;
+				left: 500px;
+				top: 500px;
+			}
+
+			75% {
+				background-color: green;
+				left: 0px;
+				top: 500px;
+			}
+
+			100% {
+				background-color: red;
+				left: 0px;
+				top: 0px;
+			}
+		}
+
+		.footer__bottom__social a {
+			font-size: 1.3em;
+			padding-right: 0.7em;
+		}
+
+		footer a:hover {
+			color: #383838;
+			text-decoration: none;
+			font-size: 1em;
+		}
+
+		footer a:active,
+		footer a:focus {
+			outline: none;
+		}
+
+		.footer__bottom__social a:hover {
+			font-size: 1.8em;
+		}
+	</style>
+</head>
+
+<body>
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<scri pt src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+		integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"></script>
+		<div style="background:rgb(148, 148, 51);padding:5px">
+			<h4 style="text-align:center">Welcome, We are ready to help you in your first step.</h4>
+		</div>
+	
+		<div class="header">
+			<h3>Uttarakhand Association of New Zealand </h3>
+			<p> We are a Charitable trust in New Zealand and helping immigrant to settle in the New Zaland</p>
+		</div>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="home">
+			<div style=" text-align:left">
+				<a href="#home" class="navbar-brand">Home</a>
+				<a href="#visit" class="navbar-brand">Place to Visit</a>
+				<a href="/index1.html" targrt="_blank" class="navbar-brand">Market Place</a>
+				
+				<a href="#mycontact" class="navbar-brand">Contact Us</a>
+				
+			</div>
+		</nav>
+		<div id="hi"></div>
+		<div id="visit">
+			<div class="container">
+				<div class="row">
+					<div class="card col-lg-3 col-md-6 col-sm-12">
+						<img src="cbd.png" id="cardTitle" class="card-img-top" height="200px">
+						<div class="card-body">
+							<h5 class="card-title" id="cardTitle1"></h5>
+							<p class="card-text">The Auckland Central Business District (CBD), or Auckland city centre,
+								is the geographical and economic heart of the Auckland metropolitan area.</p>
+							<a href="https://www.aucklandnz.com/visit/destinations/auckland-central" target="blank"
+								class="btn btn-primary">More....</a>
+						</div>
+					</div>
+					<div id=about class="card col-lg-3 col-md-6 col-sm-12 ">
+						<img src="hanua.png" class="card-img-top" height="200px">
+						<div class="card-body">
+							<h5 class="card-title" id="cardTitle"></h5>
+							<p class="card-text">Hunua Falls Lookout Walk – an easy 15 min return track takes all
+								visitors to the opposite side of the river to the second lower lookout.</p>
+							<a href="https://hunuafallscamp.co.nz/" target="blank" class="btn btn-primary">More....</a>
+						</div>
+					</div>
+					<div class="card col-lg-3 col-md-6 col-sm-12 ">
+						<img src="mounteden.png" class="card-img-top" height="200px">
+						<div class="card-body">
+							<h5 class="card-title" id="cardTitle"></h5>
+							<p class="card-text">The Mt Eden walk is an easy 2k walk that will take you around 1 hour to
+								complete. Just 5 km from down town Auckland it's the highest volcano in Auckland on Mt
+								Eden.</p>
+							<a href="https://www.aucklandnz.com/visit/destinations/auckland-central/mount-eden-and-kingsland"
+								target=blank class="btn btn-primary">More....</a>
+						</div>
+					</div>
+					<div class="card col-lg-3 col-md-6 col-sm-12 ">
+						<img src="mountwe.png" class="card-img-top" height="200px">
+						<div class="card-body">
+							<h5 class="card-title" id="cardTitle"></h5>
+							<p class="card-text">Mount Wellington is volcanic peak situated 12 kilometres, or a short 15
+								minute drive, from downtown Auckland. Standing at 135 metres, Mount Wellington is the
+								youngest of Auckland's volcanic peaks having last erupted just over 10,000 years ago.
+							</p>
+							<a href="https://www.aucklandcouncil.govt.nz/parks-recreation/get-outdoors/aklpaths/Pages/path-detail.aspx?ItemId=400"
+								target="blank" class="btn btn-primary"> More....</a>
+						</div>
+					</div>
+					<div class="card col-lg-3 col-md-6 col-sm-12 ">
+						<img src="pic1.png" class="card-img-top" height="200px">
+						<div class="card-body">
+							<h5 class="card-title" id="cardTitle"></h5>
+							<p class="card-text">It’s hard to imagine an Auckland skyline without the iconic Sky Tower.
+								For over 25 years now, this magnificent 328m high structure has been the focal point of
+								our beautiful city, rising up out of the land to delight locals and visitors alike.</p>
+							<a href="https://skycityauckland.co.nz/sky-tower/" target="blank"
+								class="btn btn-primary">More....</a>
+						</div>
+					</div>
+					<div class="card col-lg-3 col-md-6 col-sm-12 ">
+						<img src="rainbow.png" class="card-img-top" height="200px">
+						<div class="card-body">
+							<h5 class="card-title" id="cardTitle"></h5>
+							<p class="card-text">With over 20 rides and attractions, there's something for everyone at
+								Rainbow's End! Our opening times vary based on time of year..</p>
+							<a href="https://rainbowsend.co.nz/" target=blank class="btn btn-primary">More.....</a>
+						</div>
+					</div>
+					<div class="card col-lg-3 col-md-6 col-sm-12 ">
+						<img src="tunnel.png" class="card-img-top" height="200px">
+						<div class="card-body">
+							<h5 class="card-title" id="cardTitle"></h5>
+							<p class="card-text">The Waterview Tunnel is a key piece of the Western Ring Route, a 48km
+								motorway route through the west of Auckland, connecting Manukau, the city, West Auckland
+								and the North Shore.</p>
+							<a href="https://www.nzta.govt.nz/projects/the-western-ring-route/waterview-tunnel/"
+								target=blank class="btn btn-primary">More....</a>
+						</div>
+					</div>
+					<div class="card col-lg-3 col-md-6 col-sm-12 ">
+						<img src="waterview.png" class="card-img-top" height="200px">
+						<div class="card-body">
+							<h5 class="card-title" id="cardTitle"></h5>
+							<p class="card-text">Waterview is a suburb of Auckland, New Zealand, located along the
+								western side of Auckland's isthmus.</p>
+							<a href="https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=113"
+								target=blank class="btn btn-primary">More....</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="mycontact">
+			<table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+				<tr>
+					<td>
+						<table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+							<tr>
+								<td height="180" align="center" valign="middle" colspan="2">
+									<font face="Verdana" size="7" color="black">
+										Contact
+									</font>
+									<hr color="black" width="90">
+								</td>
+							</tr>
+
+							<tr>
+								<td align="center" valign="top">
+									<table border="0" width="50%" cellpadding="15" cellspacing="0" align="center"
+										bgcolor="black">
+										<tr>
+											<td width="30%">
+												<hr color="black">
+												<font face="Verdana" size="4" color="#ffffff">
+													Name
+												</font>
+											</td>
+											<td width="70%">
+												<font face="Verdana" size="4" color="#ffffff">
+													<input type="text" size="40">
+												</font>
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<font face="Verdana" size="4" color="#ffffff">
+													Email
+												</font>
+											</td>
+											<td width="70%">
+												<font face="Verdana" size="4" color="#ffffff">
+													<input type="email" size="40">
+												</font>
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<font face="Verdana" size="4" color="#ffffff">
+													Number
+												</font>
+											</td>
+											<td width="70%">
+												<font face="Verdana" size="4" color="#ffffff">
+													<input type="number" size="12">
+												</font>
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<font face="Verdana" size="4" color="#ffffff">
+													Message
+												</font>
+											</td>
+											<td width="70%">
+												<font face="Verdana" size="4" color="#ffffff">
+													<textarea rows="5" cols="37">
+										</textarea>
+												</font>
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+
+											</td>
+											<td width="70%">
+												<button type="Submit">
+													<font face="Verdana" size="4" color="black">
+														<b>Submit</b>
+													</font>
+												</button>
+												<hr color="black">
+												<hr color="black">
+											</td>
+										</tr>
+									</table>
+								</td>
+
+							</tr>
+							<tr>
+								<td colspan="2">
+
+
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<main>
+		</main>
+
+		<footer class="bg-dark text-center text-white">
+			
+			<div class="container p-4">
+				
+				<section class="mb-4">
+					
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-google"></a>
+					<a href="#" class="fa fa-linkedin"></a>
+					<a href="#" class="fa fa-youtube"></a>
+					<a href="#" class="fa fa-instagram"></a>
+				</section>
+								
+				<section class="">
+					<form action="">
+						
+						<div class="row d-flex justify-content-center">
+							
+							<div class="col-auto">
+								<p class="pt-2">
+									<strong>Sign up for our newsletter</strong>
+								</p>
+							</div>						
+							
+							<div class="col-md-5 col-12">
+								
+								<div class="form-outline form-white mb-4">
+									<input type="email" id="form5Example21" class="form-control" />
+									<label class="form-label" for="form5Example21">Email address</label>
+								</div>
+							</div>
+													
+							<div class="col-auto">
+								
+								<button type="submit" class="btn btn-outline-light mb-4">
+									Subscribe
+								</button>
+							</div>
+							
+						</div>
+						
+					</form>
+				</section>
+				
+				<section class="mb-4">
+					<p>
+						Please subscribe our membership for update and news related to upcomine events.
+						Stay connected with social media for any change and update.
+
+					</p>
+				</section>
+				
+				<section class="">
+				
+					<div class="row">
+
+
+						<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+							<h5 class="text-uppercase">Your City</h5>
+
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="#!" class="text-white">Auckland</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Wellington</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">christchurch</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Hamilton</a>
+								</li>
+							</ul>
+						</div>
+						
+						<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+							<h5 class="text-uppercase">Local Market</h5>
+
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="#!" class="text-white">Central Auckland</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">West Auckland</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">South auckland</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">East Auckland</a>
+								</li>
+							</ul>
+						</div>
+						
+						<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+							<h5 class="text-uppercase">Favourite Place</h5>
+
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="#!" class="text-white">Rainbow End</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">CBD</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Harbour Bridge</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Sky Tower</a>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+					
+				</section>
+				
+			</div>
+			
+			<div class="text-center p-3" style="background-color: rgba(33, 18, 144, 0.2);">
+				© 2023 Copyright:
+				<a class="text-white" href="https://mdbootstrap.com/">uanz.com</a>
+			</div>
+			
+		</footer>
+		
+</body>
+
+</html>
+<p id="cardTitle1"></p>
+
+<body>
+	<script>
+		let placesArray = [];
+		let fetchData = () => {
+			fetch('https://run.mocky.io/v3/c96314d7-d932-430b-b428-c9443d051c5b')
+				.then((response) => response.json())
+				.then((json) => {
+					let temp = []
+					
+					json.map(element => temp.push(element.place));
+
+					placesArray = temp;
+					console.log(temp);
+					for (i = 0; i < 8; i++) {
+						document.getElementById("cardTitle1").innerHTML = placesArray[i]
+					}
+				})
+		}
+		fetchData();
+		console.log(placesArray)
+
+
+	</script>
+</body>
+
+</html>
